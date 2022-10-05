@@ -9,3 +9,4 @@
 - 8-firstdelete : Delete the file betty
 - 9-firstdirdeletion : Delete the directory my_first_directory that is in the /tmp directory
 - 10-back : Write a script that changes the working directory to the previous one
+- 11-lists : Lists all files in the current directory, the parent directory and the /boot directory (in this order), in long format
