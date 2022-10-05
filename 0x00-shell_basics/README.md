@@ -10,3 +10,6 @@
 - 9-firstdirdeletion : Delete the directory my_first_directory that is in the /tmp directory
 - 10-back : Write a script that changes the working directory to the previous one
 - 11-lists : Lists all files in the current directory, the parent directory and the /boot directory (in this order), in long format
+- 12-file_type : Write a script that prints the type of the file named iamafile
+- 13-symbolic_link : Create a symbolic link to /bin/ls, named __ls__
+- 14-copy_html : Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
