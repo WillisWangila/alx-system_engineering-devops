@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type d -exec chown vincent:staff -R {} +
+chown -R vincent:staff .
