@@ -15,5 +15,5 @@ do
 		echo "$minutes"
 		(( minutes++ ))
 	done
-	minutes=0
+	minutes=1
 done
