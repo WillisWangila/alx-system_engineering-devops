@@ -15,5 +15,5 @@ do
 		echo "$minutes"
 		(( minutes++ ))
 	done
-	minutes=1
+	minutes=1 # resets minutes counter to 1 to allow 2nd while loop to run again, otherwise minutes = 60
 done
