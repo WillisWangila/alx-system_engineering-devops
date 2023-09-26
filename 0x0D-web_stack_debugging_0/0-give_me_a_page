@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Start Apache server to return page when queried
+
+service apache2 start
