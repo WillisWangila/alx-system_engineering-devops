@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Configures new ubuntu machine
+# Updates machine and installs nginx
+# Allows ngonx to listen on port 80
+# Changes default index page to 'Hello World'
+sudo apt update -y
+sudo apt install nginx -y
+ufw allow 'Nginx HTTP'
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+sudo service nginx start
