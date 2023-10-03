@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # new 404 error page from last task
 sudo apt update -y
-sudo aptinstall nginx -y
+sudo apt install nginx -y
 echo "Hello World!" > index.html
 sudo mv index.html /var/www/html
 
